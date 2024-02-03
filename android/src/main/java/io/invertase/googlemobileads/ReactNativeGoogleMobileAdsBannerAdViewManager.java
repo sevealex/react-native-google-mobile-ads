@@ -187,7 +187,7 @@ public class ReactNativeGoogleMobileAdsBannerAdViewManager
       Activity currentActivity = ((ReactContext) reactViewGroup.getContext()).getCurrentActivity();
       if (currentActivity != null) {
         // in order to display the debug menu for GAM ads we need the activity context
-        // https://github.com/invertase/react-native-google-mobile-ads/issues/188
+        // https://github.com/invertase/new-react-native-google-mobile-ads/issues/188
         adView = new AdManagerAdView(currentActivity);
       } else {
         return null;

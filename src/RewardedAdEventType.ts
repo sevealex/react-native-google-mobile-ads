@@ -28,7 +28,7 @@ export enum RewardedAdEventType {
    * #### Example
    *
    * ```js
-   * import { RewardedAdEventType } from 'react-native-google-mobile-ads';
+   * import { RewardedAdEventType } from 'new-react-native-google-mobile-ads';
    *
    * rewardedAd.addEventListener(RewardedAdEventType.LOADED, (reward) => {
    *   console.log(`Rewarded Ad loaded with ${data.amount} ${data.type} as reward`);
@@ -48,7 +48,7 @@ export enum RewardedAdEventType {
    * #### Example
    *
    * ```js
-   * import { RewardedAdEventType } from 'react-native-google-mobile-ads';
+   * import { RewardedAdEventType } from 'new-react-native-google-mobile-ads';
    *
    * rewardedAd.addEventListener(RewardedAdEventType.EARNED_REWARD, (reward) => {
    *   console.log(`User earned ${data.amount} ${data.type}`);

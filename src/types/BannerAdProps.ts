@@ -14,7 +14,7 @@ import { RequestOptions } from './RequestOptions';
  * such as positioning.
  *
  * ```js
- * import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+ * import { BannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
  *
  * function HomeScreen() {
  *   return (
@@ -91,7 +91,7 @@ export interface BannerAdProps {
  * such as positioning.
  *
  * ```js
- * import { GAMBannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+ * import { GAMBannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
  *
  * function HomeScreen() {
  *   return (
@@ -128,7 +128,7 @@ export interface GAMBannerAdProps extends Omit<BannerAdProps, 'size'> {
    * After setting this value to `true`, call `recordManualImpression()` from the ref object.
    *
    * ```js
-   * import { GAMBannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+   * import { GAMBannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
    *
    * function HomeScreen() {
    *   const ref = useRef<GAMBannerAd>(null);

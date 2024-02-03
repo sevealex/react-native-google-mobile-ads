@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.2",
-    "react-native-google-mobile-ads": "link:../"
+    "new-react-native-google-mobile-ads": "link:../"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

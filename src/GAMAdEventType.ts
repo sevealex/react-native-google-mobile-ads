@@ -24,7 +24,7 @@ export enum GAMAdEventType {
    * #### Example
    *
    * ```js
-   * import { GAMAdEventType } from 'react-native-google-mobile-ads';
+   * import { GAMAdEventType } from 'new-react-native-google-mobile-ads';
    *
    * interstitialAd.onAdEvent((type, error, data) => {
    *   if (type === GAMAdEventType.APP_EVENT) {

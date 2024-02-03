@@ -12,7 +12,7 @@ export class GAMInterstitialAd extends InterstitialAd {
    * #### Example
    *
    * ```js
-   * import { GAMInterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
+   * import { GAMInterstitialAd, AdEventType, TestIds } from 'new-react-native-google-mobile-ads';
    *
    * const interstitialAd = await GAMInterstitialAd.createForAdRequest(TestIds.GAM_INTERSTITIAL, {
    *   requestAgent: 'CoolAds',

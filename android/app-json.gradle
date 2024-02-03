@@ -3,7 +3,7 @@ import groovy.json.JsonSlurper
 
 String[] fileNames = ["app.json", "app.config.js"]
 String fileName = null
-String jsonRoot = "react-native-google-mobile-ads"
+String jsonRoot = "new-react-native-google-mobile-ads"
 String jsonRaw = "GOOGLE_MOBILE_ADS_JSON_RAW"
 
 File configFile = null

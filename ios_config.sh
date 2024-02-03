@@ -28,7 +28,7 @@ _SEARCH_RESULT=''
 _RN_ROOT_EXISTS=''
 _CURRENT_LOOKUPS=1
 _PROJECT_ABBREVIATION="RNGoogleMobileAds"
-_JSON_ROOT="'react-native-google-mobile-ads'"
+_JSON_ROOT="'new-react-native-google-mobile-ads'"
 _JSON_FILE_NAME='app.json'
 _JS_APP_CONFIG_FILE_NAME='app.config.js'
 _JSON_OUTPUT_BASE64='e30=' # { }
@@ -177,7 +177,7 @@ if ! [[ -f "${_TARGET_PLIST}" ]]; then
 fi
 
 if ! [[ $_IOS_APP_ID ]]; then
-  echo "error: ios_app_id key not found in react-native-google-mobile-ads key in app.json. App will crash without it."
+  echo "error: ios_app_id key not found in new-react-native-google-mobile-ads key in app.json. App will crash without it."
   exit 1
 fi
 

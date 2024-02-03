@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary             = <<-DESC
                             #{package["description"]}
                           DESC
-  s.homepage            = "http://invertase.io/oss/react-native-google-mobile-ads"
+  s.homepage            = "http://invertase.io/oss/new-react-native-google-mobile-ads"
   s.license             = package['license']
   s.authors             = "Invertase Limited"
   s.source              = { :git => "#{package["repository"]["url"]}.git", :tag => "v#{s.version}" }

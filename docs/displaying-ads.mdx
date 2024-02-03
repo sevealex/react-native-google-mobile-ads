@@ -17,7 +17,7 @@ of the method is the "Ad Unit ID". For testing, we can use a Test ID, however fo
 Google AdMob dashboard under "Ad units" should be used:
 
 ```js
-import { AppOpenAd, TestIds, AdEventType } from 'react-native-google-mobile-ads';
+import { AppOpenAd, TestIds, AdEventType } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.APP_OPEN : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -70,7 +70,7 @@ of the method is the "Ad Unit ID". For testing, we can use a Test ID, however fo
 Google AdMob dashboard under "Ad units" should be used:
 
 ```js
-import { InterstitialAd, TestIds, AdEventType } from 'react-native-google-mobile-ads';
+import { InterstitialAd, TestIds, AdEventType } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -92,7 +92,7 @@ To listen to events, such as when the advert from the network has loaded or when
 ```jsx
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-native';
-import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
+import { InterstitialAd, AdEventType, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -156,7 +156,7 @@ of the method is the "Ad Unit ID". For testing, we can use a Test ID, however fo
 Google AdMob dashboard under "Ad units" should be used:
 
 ```js
-import { RewardedAd, TestIds } from 'react-native-google-mobile-ads';
+import { RewardedAd, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -178,7 +178,7 @@ To listen to events, such as when the advert from the network has loaded or when
 ```js
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-native';
-import { RewardedAd, RewardedAdEventType, TestIds } from 'react-native-google-mobile-ads';
+import { RewardedAd, RewardedAdEventType, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -274,7 +274,7 @@ of the method is the "Ad Unit ID". For testing, we can use a Test ID, however fo
 Google AdMob dashboard under "Ad units" should be used:
 
 ```js
-import { RewardedInterstitialAd, TestIds } from 'react-native-google-mobile-ads';
+import { RewardedInterstitialAd, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__
   ? TestIds.REWARDED_INTERSTITIAL
@@ -302,7 +302,7 @@ import {
   RewardedInterstitialAd,
   RewardedAdEventType,
   TestIds,
-} from 'react-native-google-mobile-ads';
+} from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__
   ? TestIds.REWARDED_INTERSTITIAL
@@ -400,7 +400,7 @@ a banner:
 
 ```js
 import React from 'react';
-import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import { BannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.ADAPTIVE_BANNER : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -443,7 +443,7 @@ This guide shows how to turn on collapsible banner ads for existing banner place
 
 ```js
 import React from 'react';
-import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import { BannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.ADAPTIVE_BANNER : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
@@ -468,7 +468,7 @@ You can also display a Google Ad Manager banner ad unit. In this case, you have 
 
 ```js
 import React from 'react';
-import { GAMBannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import { GAMBannerAd, BannerAdSize, TestIds } from 'new-react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.GAM_BANNER : '/xxx/yyyy';
 

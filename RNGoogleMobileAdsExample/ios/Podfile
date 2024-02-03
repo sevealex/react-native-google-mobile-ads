@@ -70,7 +70,7 @@ target 'RNGoogleMobileAdsExample' do
 
     # quiet non-module warnings - only interested in google-mobile-ads warnings
     installer.pods_project.targets.each do |target|
-      if !target.name.include? "react-native-google-mobile-ads"
+      if !target.name.include? "new-react-native-google-mobile-ads"
         target.build_configurations.each do |config|
           config.build_settings["GCC_WARN_INHIBIT_ALL_WARNINGS"] = "YES"
         end

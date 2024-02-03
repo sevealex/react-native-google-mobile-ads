@@ -39,7 +39,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * request options. The example below will present a test advert, and only request a non-personalized ad.
  *
  * ```js
- * import { RewardedAd, TestIds } from 'react-native-google-mobile-ads';
+ * import { RewardedAd, TestIds } from 'new-react-native-google-mobile-ads';
  *
  * const rewarded = RewardedAd.createForAdRequest(TestIds.REWARDED, {
  *     requestNonPersonalizedAdsOnly: true,
@@ -54,7 +54,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * adverts are passed back to the event handler on advert load and when the user earns the reward.
  *
  * ```js
- * import { RewardedAdEventType } from 'react-native-google-mobile-ads';
+ * import { RewardedAdEventType } from 'new-react-native-google-mobile-ads';
  *
  * rewarded.addAdEventListener(RewardedAdEventType.LOADED. () => {
  *   rewarded.show();
@@ -77,7 +77,7 @@ export class RewardedAd extends MobileAd {
    * #### Example
    *
    * ```js
-   * import { RewardedAd, RewardedAdEventType, TestIds } from 'react-native-google-mobile-ads';
+   * import { RewardedAd, RewardedAdEventType, TestIds } from 'new-react-native-google-mobile-ads';
    *
    * const rewardedAd = await RewardedAd.createForAdRequest(TestIds.REWARDED, {
    *   requestAgent: 'CoolAds',

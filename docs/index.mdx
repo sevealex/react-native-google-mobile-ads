@@ -2,7 +2,7 @@
 
 ```bash
 # Install the admob module
-yarn add react-native-google-mobile-ads
+yarn add new-react-native-google-mobile-ads
 ```
 
 > On Android, before releasing your app, you must select _Yes, my app contains ads_ in the Google Play Store, Policy, App content, Manage under Ads.
@@ -98,7 +98,7 @@ Within the root of your React Native project, open the `app.json` or (if using E
 ```json
 // <project-root>/app.json
 {
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
   }
@@ -110,14 +110,14 @@ Within the root of your React Native project, open the `app.json` or (if using E
 ```js
 // <project-root>/app.config.js
 module.exports = {
-  'react-native-google-mobile-ads': {
+  'new-react-native-google-mobile-ads': {
     android_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     ios_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
   },
 };
 ```
 
-If you're an expo user, make sure the `react-native-google-mobile-ads` block is outside of the `expo` block!
+If you're an expo user, make sure the `new-react-native-google-mobile-ads` block is outside of the `expo` block!
 It should look like this:
 
 #### app.json
@@ -128,7 +128,7 @@ It should look like this:
   "expo": {
     // ...
   },
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
   }
@@ -143,7 +143,7 @@ module.exports = {
   expo: {
     // ...
   },
-  'react-native-google-mobile-ads': {
+  'new-react-native-google-mobile-ads': {
     android_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     ios_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
   },
@@ -193,7 +193,7 @@ receive content suitable for children before loading any adverts.
 If you need to set a custom request configuration, you must call the `setRequestConfiguration` method before initializing the Google Mobile Ads SDK:
 
 ```js
-import mobileAds, { MaxAdContentRating } from 'react-native-google-mobile-ads';
+import mobileAds, { MaxAdContentRating } from 'new-react-native-google-mobile-ads';
 
 mobileAds()
   .setRequestConfiguration({
@@ -226,7 +226,7 @@ This needs to be done only once, ideally at app launch.
 > If you need to obtain consent from users in the European Economic Area (EEA), set any request-specific flags (such as tagForChildDirectedTreatment), or otherwise take action before loading ads, ensure you do so before initializing the Mobile Ads SDK.
 
 ```js
-import mobileAds from 'react-native-google-mobile-ads';
+import mobileAds from 'new-react-native-google-mobile-ads';
 
 mobileAds()
   .initialize()
@@ -246,7 +246,7 @@ Within your projects `app.json`/`app.config.js` file, add the advised [SKAdNetwo
 
 ```json
 {
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "sk_ad_network_items": [
@@ -308,7 +308,7 @@ Within your projects `app.json`/`app.config.js` file, add the advised [SKAdNetwo
 
 ```js
 module.exports = {
-  'react-native-google-mobile-ads': {
+  'new-react-native-google-mobile-ads': {
     android_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     ios_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     sk_ad_network_items: [
@@ -329,7 +329,7 @@ Within your projects `app.json` or `app.config.js` file, you have to use the `us
 
 ```json
 {
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
@@ -341,7 +341,7 @@ Within your projects `app.json` or `app.config.js` file, you have to use the `us
 
 ```js
 module.exports = {
-  'react-native-google-mobile-ads': {
+  'new-react-native-google-mobile-ads': {
     android_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     ios_app_id: 'ca-app-pub-xxxxxxxx~xxxxxxxx',
     user_tracking_usage_description:
@@ -385,7 +385,7 @@ Although usage of different advert types is explained later, when creating your 
 testing can be set to a testing ID. The code snippet below shows how to initialize each advert type with a test ID:
 
 ```jsx
-import { AppOpenAd, InterstitialAd, RewardedAd, BannerAd, TestIds } from 'react-native-google-mobile-ads';
+import { AppOpenAd, InterstitialAd, RewardedAd, BannerAd, TestIds } from 'new-react-native-google-mobile-ads';
 
 # App Open
 AppOpenAd.createForAdRequest(TestIds.APP_OPEN);

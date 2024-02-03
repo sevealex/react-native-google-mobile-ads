@@ -39,7 +39,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * request options. The example below will present a test advert, and only request a non-personalized ad.
  *
  * ```js
- * import { RewardedInterstitialAd, TestIds } from 'react-native-google-mobile-ads';
+ * import { RewardedInterstitialAd, TestIds } from 'new-react-native-google-mobile-ads';
  *
  * const rewardedInterstitial = RewardedInterstitialAd.createForAdRequest(TestIds.REWARDED_INTERSTITIAL, {
  *     requestNonPersonalizedAdsOnly: true,
@@ -54,7 +54,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * adverts are passed back to the event handler on advert load and when the user earns the reward.
  *
  * ```js
- * import { RewardedAdEventType } from 'react-native-google-mobile-ads';
+ * import { RewardedAdEventType } from 'new-react-native-google-mobile-ads';
  *
  * rewardedInterstitial.addAdEventListener(RewardedAdEventType.LOADED. () => {
  *   rewarded.show();
@@ -77,7 +77,7 @@ export class RewardedInterstitialAd extends MobileAd {
    * #### Example
    *
    * ```js
-   * import { RewardedInterstitialAd, RewardedAdEventType, TestIds } from 'react-native-google-mobile-ads';
+   * import { RewardedInterstitialAd, RewardedAdEventType, TestIds } from 'new-react-native-google-mobile-ads';
    *
    * const rewardedInterstitialAd = await RewardedInterstitialAd.createForAdRequest(TestIds.REWARDED_INTERSTITIAL, {
    *   requestAgent: 'CoolAds',

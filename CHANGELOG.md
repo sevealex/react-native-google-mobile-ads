@@ -1,113 +1,113 @@
-## [12.10.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.9.0...v12.10.0) (2024-01-11)
+## [12.10.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.9.0...v12.10.0) (2024-01-11)
 
 
 ### Features
 
-* add method to check if consent for purpose 1 was given ([8fcee30](https://github.com/invertase/react-native-google-mobile-ads/commit/8fcee30bd72ac74b50abb901a789a6f8a4944f2f))
+* add method to check if consent for purpose 1 was given ([8fcee30](https://github.com/invertase/new-react-native-google-mobile-ads/commit/8fcee30bd72ac74b50abb901a789a6f8a4944f2f))
 
-## [12.9.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.8.0...v12.9.0) (2024-01-09)
+## [12.9.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.8.0...v12.9.0) (2024-01-09)
 
 
 ### Features
 
-* **ios, android:** Add support for app.config.js ([#517](https://github.com/invertase/react-native-google-mobile-ads/issues/517)) ([be39d5a](https://github.com/invertase/react-native-google-mobile-ads/commit/be39d5a03ec8057bd583ca2106beed206b1257cd))
+* **ios, android:** Add support for app.config.js ([#517](https://github.com/invertase/new-react-native-google-mobile-ads/issues/517)) ([be39d5a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/be39d5a03ec8057bd583ca2106beed206b1257cd))
 
 
 ### Reverts
 
-* Revert "chore(docs): update gathering consent info" ([a82412b](https://github.com/invertase/react-native-google-mobile-ads/commit/a82412b83b492a6712979aa16d7bd0302c914654))
+* Revert "chore(docs): update gathering consent info" ([a82412b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/a82412b83b492a6712979aa16d7bd0302c914654))
 
-## [12.8.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.7.1...v12.8.0) (2024-01-03)
+## [12.8.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.7.1...v12.8.0) (2024-01-03)
 
 
 ### Features
 
-* add method to check if gdpr applies ([011d68d](https://github.com/invertase/react-native-google-mobile-ads/commit/011d68d299a5ad88a13e7628b3d60d97c60380f4))
+* add method to check if gdpr applies ([011d68d](https://github.com/invertase/new-react-native-google-mobile-ads/commit/011d68d299a5ad88a13e7628b3d60d97c60380f4))
 
-### [12.7.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.7.0...v12.7.1) (2023-12-31)
+### [12.7.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.7.0...v12.7.1) (2023-12-31)
 
 
 ### Bug Fixes
 
-* banners not properly destroyed ([ef85d87](https://github.com/invertase/react-native-google-mobile-ads/commit/ef85d875cb15f3414995e83382a34679d5d7af9b))
+* banners not properly destroyed ([ef85d87](https://github.com/invertase/new-react-native-google-mobile-ads/commit/ef85d875cb15f3414995e83382a34679d5d7af9b))
 
-## [12.7.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.6.0...v12.7.0) (2023-12-30)
-
-
-### Features
-
-* initialize sdk in parallel ([3a427ee](https://github.com/invertase/react-native-google-mobile-ads/commit/3a427ee25600c51816016f74c2bfc35c0cb059b9))
-
-## [12.6.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.5.1...v12.6.0) (2023-12-05)
+## [12.7.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.6.0...v12.7.0) (2023-12-30)
 
 
 ### Features
 
-* collapsible banner ads (beta) ([345aaae](https://github.com/invertase/react-native-google-mobile-ads/commit/345aaaebf8ed389861173dda435685cb59c85233))
+* initialize sdk in parallel ([3a427ee](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3a427ee25600c51816016f74c2bfc35c0cb059b9))
+
+## [12.6.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.5.1...v12.6.0) (2023-12-05)
+
+
+### Features
+
+* collapsible banner ads (beta) ([345aaae](https://github.com/invertase/new-react-native-google-mobile-ads/commit/345aaaebf8ed389861173dda435685cb59c85233))
 
 
 ### Bug Fixes
 
-* remove redundant requestPersonalizedAdsOnly from docs (replaced by UMP) ([79468a7](https://github.com/invertase/react-native-google-mobile-ads/commit/79468a75e7b9e4d48dda9302116a6c5738d570b3))
+* remove redundant requestPersonalizedAdsOnly from docs (replaced by UMP) ([79468a7](https://github.com/invertase/new-react-native-google-mobile-ads/commit/79468a75e7b9e4d48dda9302116a6c5738d570b3))
 
-### [12.5.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.5.0...v12.5.1) (2023-12-05)
-
-
-### Bug Fixes
-
-* update demo ad ids ([324c213](https://github.com/invertase/react-native-google-mobile-ads/commit/324c2133cf988920a8688b6eefb37834c9aa2207))
-
-## [12.5.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.4.0...v12.5.0) (2023-12-05)
-
-
-### Features
-
-* **deps:** mobile ads sdk upgrade - ios 10.14.0 android 22.5.0 ([f3a8146](https://github.com/invertase/react-native-google-mobile-ads/commit/f3a8146b6dfc1a0333e5316b914e65b6b1d1148d))
-
-## [12.4.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.3.0...v12.4.0) (2023-11-10)
-
-
-### Features
-
-* exposes impression-level ad revenue events ([969dbfa](https://github.com/invertase/react-native-google-mobile-ads/commit/969dbfac50a4147531e7d06f1fbbf0ea80426c96))
-
-## [12.3.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.2.0...v12.3.0) (2023-10-08)
-
-
-### Features
-
-* **deps, ios:** mobile ads sdk upgrade - ios 10.12.0 ([6c86072](https://github.com/invertase/react-native-google-mobile-ads/commit/6c86072310867977bd77170ace91ca0f2f8b5653))
-
-## [12.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.1.2...v12.2.0) (2023-09-25)
-
-
-### Features
-
-* **deps:** mobile ads sdk upgrade - ios 10.10.0 android 22.4.0 ([96b2450](https://github.com/invertase/react-native-google-mobile-ads/commit/96b24509e476f62373d6b98b0bce62caf27e6c1e))
-
-### [12.1.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.1.1...v12.1.2) (2023-09-11)
+### [12.5.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.5.0...v12.5.1) (2023-12-05)
 
 
 ### Bug Fixes
 
-* **android:** crash when activity context not available ([7c89579](https://github.com/invertase/react-native-google-mobile-ads/commit/7c8957907f3237ebf245e9871e625868d1d77e25))
-* **android:** race condition getting current activity ([b3a09e1](https://github.com/invertase/react-native-google-mobile-ads/commit/b3a09e1f77627af7f2cbeb9bdee22541165992a8))
+* update demo ad ids ([324c213](https://github.com/invertase/new-react-native-google-mobile-ads/commit/324c2133cf988920a8688b6eefb37834c9aa2207))
 
-### [12.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.1.0...v12.1.1) (2023-09-01)
-
-
-### Bug Fixes
-
-* missing events of type GAMAdEventType in addAdEventListener ([073cc21](https://github.com/invertase/react-native-google-mobile-ads/commit/073cc217df7fd8332a72f98c288798ea26736d8d))
-
-## [12.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v12.0.0...v12.1.0) (2023-08-29)
+## [12.5.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.4.0...v12.5.0) (2023-12-05)
 
 
 ### Features
 
-* **consent:** expose the new loadAndShowConsentFormIfRequired method ([509f9b7](https://github.com/invertase/react-native-google-mobile-ads/commit/509f9b7e8a3fd27108219954e662a3bb8fb23d4c))
+* **deps:** mobile ads sdk upgrade - ios 10.14.0 android 22.5.0 ([f3a8146](https://github.com/invertase/new-react-native-google-mobile-ads/commit/f3a8146b6dfc1a0333e5316b914e65b6b1d1148d))
 
-## [12.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.7.0...v12.0.0) (2023-08-13)
+## [12.4.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.3.0...v12.4.0) (2023-11-10)
+
+
+### Features
+
+* exposes impression-level ad revenue events ([969dbfa](https://github.com/invertase/new-react-native-google-mobile-ads/commit/969dbfac50a4147531e7d06f1fbbf0ea80426c96))
+
+## [12.3.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.2.0...v12.3.0) (2023-10-08)
+
+
+### Features
+
+* **deps, ios:** mobile ads sdk upgrade - ios 10.12.0 ([6c86072](https://github.com/invertase/new-react-native-google-mobile-ads/commit/6c86072310867977bd77170ace91ca0f2f8b5653))
+
+## [12.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.1.2...v12.2.0) (2023-09-25)
+
+
+### Features
+
+* **deps:** mobile ads sdk upgrade - ios 10.10.0 android 22.4.0 ([96b2450](https://github.com/invertase/new-react-native-google-mobile-ads/commit/96b24509e476f62373d6b98b0bce62caf27e6c1e))
+
+### [12.1.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.1.1...v12.1.2) (2023-09-11)
+
+
+### Bug Fixes
+
+* **android:** crash when activity context not available ([7c89579](https://github.com/invertase/new-react-native-google-mobile-ads/commit/7c8957907f3237ebf245e9871e625868d1d77e25))
+* **android:** race condition getting current activity ([b3a09e1](https://github.com/invertase/new-react-native-google-mobile-ads/commit/b3a09e1f77627af7f2cbeb9bdee22541165992a8))
+
+### [12.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.1.0...v12.1.1) (2023-09-01)
+
+
+### Bug Fixes
+
+* missing events of type GAMAdEventType in addAdEventListener ([073cc21](https://github.com/invertase/new-react-native-google-mobile-ads/commit/073cc217df7fd8332a72f98c288798ea26736d8d))
+
+## [12.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v12.0.0...v12.1.0) (2023-08-29)
+
+
+### Features
+
+* **consent:** expose the new loadAndShowConsentFormIfRequired method ([509f9b7](https://github.com/invertase/new-react-native-google-mobile-ads/commit/509f9b7e8a3fd27108219954e662a3bb8fb23d4c))
+
+## [12.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.7.0...v12.0.0) (2023-08-13)
 
 
 ### ⚠ BREAKING CHANGES
@@ -116,117 +116,117 @@
 
 ### Features
 
-* return consent info whenever it changes ([f04ac01](https://github.com/invertase/react-native-google-mobile-ads/commit/f04ac01b9e1455e9d3c12eb20a7e96edef45b346))
+* return consent info whenever it changes ([f04ac01](https://github.com/invertase/new-react-native-google-mobile-ads/commit/f04ac01b9e1455e9d3c12eb20a7e96edef45b346))
 
-## [11.7.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.5...v11.7.0) (2023-08-07)
-
-
-### Features
-
-* **deps, ios:** mobile ads sdk upgrade - 10.9.0 ([cb682f3](https://github.com/invertase/react-native-google-mobile-ads/commit/cb682f37fff666488e553b20f755c2b917340b1d))
-
-### [11.6.5](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.4...v11.6.5) (2023-08-05)
-
-
-### Bug Fixes
-
-* banner ad not showing when requestoptions absent ([e0f7982](https://github.com/invertase/react-native-google-mobile-ads/commit/e0f7982fe001de952b9a939ca02878d407d99b6b))
-
-### [11.6.4](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.3...v11.6.4) (2023-08-04)
-
-
-### Bug Fixes
-
-* **ios:** support new arch in rn 0.70 ([589a0fa](https://github.com/invertase/react-native-google-mobile-ads/commit/589a0fa7299286b937292fdec999d3a9644dcf87))
-
-### [11.6.3](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.2...v11.6.3) (2023-08-01)
-
-
-### Bug Fixes
-
-* kotlin version ([fc26606](https://github.com/invertase/react-native-google-mobile-ads/commit/fc26606234dd069d6addf201b6991d7c24d3d558))
-
-### [11.6.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.1...v11.6.2) (2023-07-31)
-
-
-### Bug Fixes
-
-* export AdsConsentPrivacyOptionsRequirementStatus ([43988a3](https://github.com/invertase/react-native-google-mobile-ads/commit/43988a3c56a337b5dd9ce53634e63d928ff9bf12))
-
-### [11.6.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.6.0...v11.6.1) (2023-07-28)
-
-
-### Bug Fixes
-
-* **android:** race condition getting current activity ([5a8788b](https://github.com/invertase/react-native-google-mobile-ads/commit/5a8788b2202873b892947aed606ad8b6f792501e))
-
-## [11.6.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.5.0...v11.6.0) (2023-07-27)
+## [11.7.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.5...v11.7.0) (2023-08-07)
 
 
 ### Features
 
-* expose showPrivacyOptionsForm method ([284b2f3](https://github.com/invertase/react-native-google-mobile-ads/commit/284b2f375a20768aebed30021ce100bf8d0add89))
+* **deps, ios:** mobile ads sdk upgrade - 10.9.0 ([cb682f3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/cb682f37fff666488e553b20f755c2b917340b1d))
+
+### [11.6.5](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.4...v11.6.5) (2023-08-05)
 
 
 ### Bug Fixes
 
-* **ios:** Build support on both architectures ([2eac953](https://github.com/invertase/react-native-google-mobile-ads/commit/2eac953baf2d8efe915ef9fbf8bdd7396e707057))
+* banner ad not showing when requestoptions absent ([e0f7982](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e0f7982fe001de952b9a939ca02878d407d99b6b))
 
-## [11.5.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.4.1...v11.5.0) (2023-07-25)
-
-
-### Features
-
-* google ump sdk upgrade - 2.1.0 ([848986d](https://github.com/invertase/react-native-google-mobile-ads/commit/848986d73e44df641f2ab2718928a7592b8436d9))
+### [11.6.4](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.3...v11.6.4) (2023-08-04)
 
 
 ### Bug Fixes
 
-* **android:** example app gradle plugin location ([57ec80c](https://github.com/invertase/react-native-google-mobile-ads/commit/57ec80c6c349841ff6fb2f093349d94936f7a827))
+* **ios:** support new arch in rn 0.70 ([589a0fa](https://github.com/invertase/new-react-native-google-mobile-ads/commit/589a0fa7299286b937292fdec999d3a9644dcf87))
 
-### [11.4.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.4.0...v11.4.1) (2023-07-25)
-
-
-### Bug Fixes
-
-* **ios:** incompatible integer to pointer conversion ([e25113d](https://github.com/invertase/react-native-google-mobile-ads/commit/e25113ded42508e364a6d6b9bd46b7e88b612041))
-
-## [11.4.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.3.0...v11.4.0) (2023-07-24)
-
-
-### Features
-
-* **deps:** mobile ads sdk upgrade - ios 10.8.0 android 22.2.0 ([fa0ca9e](https://github.com/invertase/react-native-google-mobile-ads/commit/fa0ca9e54266d7d6bdb1d640b6c3b716a438f0dd))
-
-## [11.3.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.2.0...v11.3.0) (2023-07-24)
-
-
-### Features
-
-* **ios:** sdk methods and banners on new architecture ([3ee9d02](https://github.com/invertase/react-native-google-mobile-ads/commit/3ee9d020eaa5dd6b050d43d8ce72756bf131d9f8))
-
-## [11.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.1.1...v11.2.0) (2023-07-18)
-
-
-### Features
-
-* **catalyst:** support building on catalyst, though ads will not work ([#389](https://github.com/invertase/react-native-google-mobile-ads/issues/389)) ([ab55792](https://github.com/invertase/react-native-google-mobile-ads/commit/ab55792673b732f84eeb772a2626d0dc50b85a50))
-
-### [11.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.1.0...v11.1.1) (2023-06-16)
+### [11.6.3](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.2...v11.6.3) (2023-08-01)
 
 
 ### Bug Fixes
 
-* **android:** android build error issue fixed for RN 0.72 "Cannot set the value of read-only property 'force' " ([16ad8ec](https://github.com/invertase/react-native-google-mobile-ads/commit/16ad8ec124a14ea2fc7e7c72515a91dfe237f1be))
+* kotlin version ([fc26606](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fc26606234dd069d6addf201b6991d7c24d3d558))
 
-## [11.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v11.0.0...v11.1.0) (2023-06-08)
+### [11.6.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.1...v11.6.2) (2023-07-31)
+
+
+### Bug Fixes
+
+* export AdsConsentPrivacyOptionsRequirementStatus ([43988a3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/43988a3c56a337b5dd9ce53634e63d928ff9bf12))
+
+### [11.6.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.6.0...v11.6.1) (2023-07-28)
+
+
+### Bug Fixes
+
+* **android:** race condition getting current activity ([5a8788b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/5a8788b2202873b892947aed606ad8b6f792501e))
+
+## [11.6.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.5.0...v11.6.0) (2023-07-27)
 
 
 ### Features
 
-* **deps:** mobile ads sdk upgrade - ios 10.6.0 ([fe8ed90](https://github.com/invertase/react-native-google-mobile-ads/commit/fe8ed9094370ea97dbdde464911619c15cb4c694))
+* expose showPrivacyOptionsForm method ([284b2f3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/284b2f375a20768aebed30021ce100bf8d0add89))
 
-## [11.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.3.2...v11.0.0) (2023-05-30)
+
+### Bug Fixes
+
+* **ios:** Build support on both architectures ([2eac953](https://github.com/invertase/new-react-native-google-mobile-ads/commit/2eac953baf2d8efe915ef9fbf8bdd7396e707057))
+
+## [11.5.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.4.1...v11.5.0) (2023-07-25)
+
+
+### Features
+
+* google ump sdk upgrade - 2.1.0 ([848986d](https://github.com/invertase/new-react-native-google-mobile-ads/commit/848986d73e44df641f2ab2718928a7592b8436d9))
+
+
+### Bug Fixes
+
+* **android:** example app gradle plugin location ([57ec80c](https://github.com/invertase/new-react-native-google-mobile-ads/commit/57ec80c6c349841ff6fb2f093349d94936f7a827))
+
+### [11.4.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.4.0...v11.4.1) (2023-07-25)
+
+
+### Bug Fixes
+
+* **ios:** incompatible integer to pointer conversion ([e25113d](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e25113ded42508e364a6d6b9bd46b7e88b612041))
+
+## [11.4.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.3.0...v11.4.0) (2023-07-24)
+
+
+### Features
+
+* **deps:** mobile ads sdk upgrade - ios 10.8.0 android 22.2.0 ([fa0ca9e](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fa0ca9e54266d7d6bdb1d640b6c3b716a438f0dd))
+
+## [11.3.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.2.0...v11.3.0) (2023-07-24)
+
+
+### Features
+
+* **ios:** sdk methods and banners on new architecture ([3ee9d02](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3ee9d020eaa5dd6b050d43d8ce72756bf131d9f8))
+
+## [11.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.1.1...v11.2.0) (2023-07-18)
+
+
+### Features
+
+* **catalyst:** support building on catalyst, though ads will not work ([#389](https://github.com/invertase/new-react-native-google-mobile-ads/issues/389)) ([ab55792](https://github.com/invertase/new-react-native-google-mobile-ads/commit/ab55792673b732f84eeb772a2626d0dc50b85a50))
+
+### [11.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.1.0...v11.1.1) (2023-06-16)
+
+
+### Bug Fixes
+
+* **android:** android build error issue fixed for RN 0.72 "Cannot set the value of read-only property 'force' " ([16ad8ec](https://github.com/invertase/new-react-native-google-mobile-ads/commit/16ad8ec124a14ea2fc7e7c72515a91dfe237f1be))
+
+## [11.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v11.0.0...v11.1.0) (2023-06-08)
+
+
+### Features
+
+* **deps:** mobile ads sdk upgrade - ios 10.6.0 ([fe8ed90](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fe8ed9094370ea97dbdde464911619c15cb4c694))
+
+## [11.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.3.2...v11.0.0) (2023-05-30)
 
 
 ### ⚠ BREAKING CHANGES
@@ -237,72 +237,72 @@
 
 ### Features
 
-* **deps:** mobile ads sdk upgrade - ios 10.5.0 android 22.1.0 ([37e5e7d](https://github.com/invertase/react-native-google-mobile-ads/commit/37e5e7d1f44b4671d5961c901abeaf6ea5010426))
+* **deps:** mobile ads sdk upgrade - ios 10.5.0 android 22.1.0 ([37e5e7d](https://github.com/invertase/new-react-native-google-mobile-ads/commit/37e5e7d1f44b4671d5961c901abeaf6ea5010426))
 
-### [10.3.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.3.1...v10.3.2) (2023-05-03)
-
-
-### Bug Fixes
-
-* **ios:** no command found ([91ffad4](https://github.com/invertase/react-native-google-mobile-ads/commit/91ffad45b11699f62820b37d7553a516dd9cbd68))
-
-### [10.3.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.3.0...v10.3.1) (2023-04-19)
+### [10.3.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.3.1...v10.3.2) (2023-05-03)
 
 
 ### Bug Fixes
 
-* **ios:** incompatibility with react-native-version ([5ead5f0](https://github.com/invertase/react-native-google-mobile-ads/commit/5ead5f01712e307e7c3c1ef0dfcc6ec6f892fd66))
+* **ios:** no command found ([91ffad4](https://github.com/invertase/new-react-native-google-mobile-ads/commit/91ffad45b11699f62820b37d7553a516dd9cbd68))
 
-## [10.3.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.2.0...v10.3.0) (2023-04-18)
+### [10.3.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.3.0...v10.3.1) (2023-04-19)
+
+
+### Bug Fixes
+
+* **ios:** incompatibility with react-native-version ([5ead5f0](https://github.com/invertase/new-react-native-google-mobile-ads/commit/5ead5f01712e307e7c3c1ef0dfcc6ec6f892fd66))
+
+## [10.3.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.2.0...v10.3.0) (2023-04-18)
 
 
 ### Features
 
-* **ios:** add SKAdNetwork identifiers trough app.json ([7ccbb6b](https://github.com/invertase/react-native-google-mobile-ads/commit/7ccbb6b13f800e90bcd2f0a22cc49e85d77d70dc))
+* **ios:** add SKAdNetwork identifiers trough app.json ([7ccbb6b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/7ccbb6b13f800e90bcd2f0a22cc49e85d77d70dc))
 
-## [10.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.1.3...v10.2.0) (2023-04-14)
+## [10.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.1.3...v10.2.0) (2023-04-14)
 
 
 ### Features
 
-* **deps:** mobile ads sdk upgrade - ios 10.3.0 / android 22.0.0 ([61bee9a](https://github.com/invertase/react-native-google-mobile-ads/commit/61bee9a82b5b520ee542e07d032ddb478836a651))
+* **deps:** mobile ads sdk upgrade - ios 10.3.0 / android 22.0.0 ([61bee9a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/61bee9a82b5b520ee542e07d032ddb478836a651))
 
-### [10.1.3](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.1.2...v10.1.3) (2023-04-13)
-
-
-### Bug Fixes
-
-*  Solved issue with method recordManualImpression for GAMBannerAd ([#363](https://github.com/invertase/react-native-google-mobile-ads/issues/363)) ([a7dbc74](https://github.com/invertase/react-native-google-mobile-ads/commit/a7dbc748d355528f1f7edbdd497736255adcfcc0))
-
-### [10.1.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.1.1...v10.1.2) (2023-04-12)
+### [10.1.3](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.1.2...v10.1.3) (2023-04-13)
 
 
 ### Bug Fixes
 
-* **android-debug:** use activity for GAM ([984247f](https://github.com/invertase/react-native-google-mobile-ads/commit/984247ff80dab36004bd49c27a20f489e075029b))
+*  Solved issue with method recordManualImpression for GAMBannerAd ([#363](https://github.com/invertase/new-react-native-google-mobile-ads/issues/363)) ([a7dbc74](https://github.com/invertase/new-react-native-google-mobile-ads/commit/a7dbc748d355528f1f7edbdd497736255adcfcc0))
 
-### [10.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.1.0...v10.1.1) (2023-04-09)
+### [10.1.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.1.1...v10.1.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* **android-debug:** use activity for GAM ([984247f](https://github.com/invertase/new-react-native-google-mobile-ads/commit/984247ff80dab36004bd49c27a20f489e075029b))
+
+### [10.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.1.0...v10.1.1) (2023-04-09)
 
 
 ### Reverts
 
-* Revert "fix(android banner): debug menu opening" ([19b7e5a](https://github.com/invertase/react-native-google-mobile-ads/commit/19b7e5ab918ce6fe454844489ad33a19e3c8e398))
+* Revert "fix(android banner): debug menu opening" ([19b7e5a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/19b7e5ab918ce6fe454844489ad33a19e3c8e398))
 
-## [10.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.0.1...v10.1.0) (2023-04-04)
+## [10.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.0.1...v10.1.0) (2023-04-04)
 
 
 ### Features
 
-* **ads-module:** open debug menu programmatically ([3480f1b](https://github.com/invertase/react-native-google-mobile-ads/commit/3480f1b76ae950b8711db791a46e1a4a396c1bb9))
+* **ads-module:** open debug menu programmatically ([3480f1b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3480f1b76ae950b8711db791a46e1a4a396c1bb9))
 
-### [10.0.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v10.0.0...v10.0.1) (2023-03-22)
+### [10.0.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v10.0.0...v10.0.1) (2023-03-22)
 
 
 ### Bug Fixes
 
-* **android banner:** debug menu opening ([3b1f34c](https://github.com/invertase/react-native-google-mobile-ads/commit/3b1f34cb850d89555f6350d5c8b50e4c242a3a78))
+* **android banner:** debug menu opening ([3b1f34c](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3b1f34cb850d89555f6350d5c8b50e4c242a3a78))
 
-## [10.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v9.1.2...v10.0.0) (2023-03-07)
+## [10.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v9.1.2...v10.0.0) (2023-03-07)
 
 
 ### ⚠ BREAKING CHANGES
@@ -312,30 +312,30 @@
 
 ### Features
 
-* **deps:** mobile ads sdk upgrade - ios 10.2.0 / android 21.5.0 ([feb7eb3](https://github.com/invertase/react-native-google-mobile-ads/commit/feb7eb341b71c4aaf95ad04a11454ec18638e21c))
+* **deps:** mobile ads sdk upgrade - ios 10.2.0 / android 21.5.0 ([feb7eb3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/feb7eb341b71c4aaf95ad04a11454ec18638e21c))
 
-### [9.1.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v9.1.1...v9.1.2) (2023-02-22)
-
-
-### Bug Fixes
-
-* **banner, android:** support props for multiple view instances ([8c61e8b](https://github.com/invertase/react-native-google-mobile-ads/commit/8c61e8bc226cbaa0102abba9dd72697d69166242))
-
-### [9.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v9.1.0...v9.1.1) (2023-01-22)
+### [9.1.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v9.1.1...v9.1.2) (2023-02-22)
 
 
 ### Bug Fixes
 
-* **banner, ios:** Fix not able to receive banner app event on iOS ([e9ff699](https://github.com/invertase/react-native-google-mobile-ads/commit/e9ff69953161e514e6a1209a7389e2e7c5ce51ab))
+* **banner, android:** support props for multiple view instances ([8c61e8b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/8c61e8bc226cbaa0102abba9dd72697d69166242))
 
-## [9.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v9.0.0...v9.1.0) (2023-01-13)
+### [9.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v9.1.0...v9.1.1) (2023-01-22)
+
+
+### Bug Fixes
+
+* **banner, ios:** Fix not able to receive banner app event on iOS ([e9ff699](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e9ff69953161e514e6a1209a7389e2e7c5ce51ab))
+
+## [9.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v9.0.0...v9.1.0) (2023-01-13)
 
 
 ### Features
 
-* **deps:** mobile ads SDK upgrade - iOS 9.14.0 / android 21.4.0 ([c81eeb6](https://github.com/invertase/react-native-google-mobile-ads/commit/c81eeb6c3e6f90c5d70ce3c5719f665e5004e86b))
+* **deps:** mobile ads SDK upgrade - iOS 9.14.0 / android 21.4.0 ([c81eeb6](https://github.com/invertase/new-react-native-google-mobile-ads/commit/c81eeb6c3e6f90c5d70ce3c5719f665e5004e86b))
 
-## [9.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.2.3...v9.0.0) (2023-01-10)
+## [9.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.2.3...v9.0.0) (2023-01-10)
 
 
 ### ⚠ BREAKING CHANGES
@@ -344,68 +344,68 @@
 
 ### Bug Fixes
 
-* move GAM-exclusive FLUID type to new GAMBanner const ([85545f6](https://github.com/invertase/react-native-google-mobile-ads/commit/85545f6c2a0b02af3835aabd262632cc1e67172c))
+* move GAM-exclusive FLUID type to new GAMBanner const ([85545f6](https://github.com/invertase/new-react-native-google-mobile-ads/commit/85545f6c2a0b02af3835aabd262632cc1e67172c))
 
-### [8.2.3](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.2.2...v8.2.3) (2023-01-10)
-
-
-### Bug Fixes
-
-* **ios:** adaptive banner should take safe areas into account ([c34fe1a](https://github.com/invertase/react-native-google-mobile-ads/commit/c34fe1ac9a53e523b906fd2014f3f691d8a3fb00))
-* **type:** fixed mobileAds initialize response status type [#515](https://github.com/invertase/react-native-google-mobile-ads/issues/515) ([e0a7d29](https://github.com/invertase/react-native-google-mobile-ads/commit/e0a7d29fd7b5ad5e8f7e054fb3e759058d090c17))
-
-### [8.2.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.2.1...v8.2.2) (2022-11-27)
+### [8.2.3](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.2.2...v8.2.3) (2023-01-10)
 
 
 ### Bug Fixes
 
-* **ios:** use fully-specified path to required head utility ([fe69aa4](https://github.com/invertase/react-native-google-mobile-ads/commit/fe69aa44e44bec63cff0944b68cc37acde5e7976))
+* **ios:** adaptive banner should take safe areas into account ([c34fe1a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/c34fe1ac9a53e523b906fd2014f3f691d8a3fb00))
+* **type:** fixed mobileAds initialize response status type [#515](https://github.com/invertase/new-react-native-google-mobile-ads/issues/515) ([e0a7d29](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e0a7d29fd7b5ad5e8f7e054fb3e759058d090c17))
 
-### [8.2.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.2.0...v8.2.1) (2022-10-30)
+### [8.2.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.2.1...v8.2.2) (2022-11-27)
 
 
 ### Bug Fixes
 
-* **deps:** android sdk 21.3.0 / ios sdk 9.12.0 ([dbb9ed3](https://github.com/invertase/react-native-google-mobile-ads/commit/dbb9ed365da3346bf3e4a1c51ad9118f71bff50c))
+* **ios:** use fully-specified path to required head utility ([fe69aa4](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fe69aa44e44bec63cff0944b68cc37acde5e7976))
 
-## [8.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.1.2...v8.2.0) (2022-10-15)
+### [8.2.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.2.0...v8.2.1) (2022-10-30)
+
+
+### Bug Fixes
+
+* **deps:** android sdk 21.3.0 / ios sdk 9.12.0 ([dbb9ed3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/dbb9ed365da3346bf3e4a1c51ad9118f71bff50c))
+
+## [8.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.1.2...v8.2.0) (2022-10-15)
 
 
 ### Features
 
-* allow load to be called again after error ([066986c](https://github.com/invertase/react-native-google-mobile-ads/commit/066986c0d041f2b2b2ac2818db84915a9e9e8421))
+* allow load to be called again after error ([066986c](https://github.com/invertase/new-react-native-google-mobile-ads/commit/066986c0d041f2b2b2ac2818db84915a9e9e8421))
 
-### [8.1.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.1.1...v8.1.2) (2022-10-12)
-
-
-### Bug Fixes
-
-* **android, release:** rewrite helper to avoid reflection / proguard issues ([58839ce](https://github.com/invertase/react-native-google-mobile-ads/commit/58839cea515c2f577737cc1b6aa0a5ff56782085))
-
-### [8.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.1.0...v8.1.1) (2022-09-29)
+### [8.1.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.1.1...v8.1.2) (2022-10-12)
 
 
 ### Bug Fixes
 
-* **ios, config:** fix typo in ios_app_id error message ([f0fe8e8](https://github.com/invertase/react-native-google-mobile-ads/commit/f0fe8e81c3de42a1fc85174237482f98e6202770)), closes [#219](https://github.com/invertase/react-native-google-mobile-ads/issues/219)
-* **ios:** correctly handle utf-8 chars in ios-config.sh ([d2e1d44](https://github.com/invertase/react-native-google-mobile-ads/commit/d2e1d4456a79d2849f4b2434a73655a7a1a795ed)), closes [#194](https://github.com/invertase/react-native-google-mobile-ads/issues/194)
+* **android, release:** rewrite helper to avoid reflection / proguard issues ([58839ce](https://github.com/invertase/new-react-native-google-mobile-ads/commit/58839cea515c2f577737cc1b6aa0a5ff56782085))
 
-## [8.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.0.1...v8.1.0) (2022-09-16)
+### [8.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.1.0...v8.1.1) (2022-09-29)
+
+
+### Bug Fixes
+
+* **ios, config:** fix typo in ios_app_id error message ([f0fe8e8](https://github.com/invertase/new-react-native-google-mobile-ads/commit/f0fe8e81c3de42a1fc85174237482f98e6202770)), closes [#219](https://github.com/invertase/new-react-native-google-mobile-ads/issues/219)
+* **ios:** correctly handle utf-8 chars in ios-config.sh ([d2e1d44](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d2e1d4456a79d2849f4b2434a73655a7a1a795ed)), closes [#194](https://github.com/invertase/new-react-native-google-mobile-ads/issues/194)
+
+## [8.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.0.1...v8.1.0) (2022-09-16)
 
 
 ### Features
 
-* **deps:** native admob SDK bumps - iOS 9.10.0 / android 21.2.0 ([b6b5c6f](https://github.com/invertase/react-native-google-mobile-ads/commit/b6b5c6f858664e77f0c00051b1eabb942bf899cd))
+* **deps:** native admob SDK bumps - iOS 9.10.0 / android 21.2.0 ([b6b5c6f](https://github.com/invertase/new-react-native-google-mobile-ads/commit/b6b5c6f858664e77f0c00051b1eabb942bf899cd))
 
-### [8.0.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v8.0.0...v8.0.1) (2022-09-07)
+### [8.0.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v8.0.0...v8.0.1) (2022-09-07)
 
 
 ### Bug Fixes
 
-* **android:** robustly handle full-screen load exceptions ([fa79d87](https://github.com/invertase/react-native-google-mobile-ads/commit/fa79d878d9653439723cc2753eb0b4c9e790ab78))
-* **deps:** android sdk 21.1.0 / ios sdk 9.9.0 ([3778a89](https://github.com/invertase/react-native-google-mobile-ads/commit/3778a8961cde96a6692438168b7ed74d8acbb544))
+* **android:** robustly handle full-screen load exceptions ([fa79d87](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fa79d878d9653439723cc2753eb0b4c9e790ab78))
+* **deps:** android sdk 21.1.0 / ios sdk 9.9.0 ([3778a89](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3778a8961cde96a6692438168b7ed74d8acbb544))
 
-## [8.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v7.0.1...v8.0.0) (2022-09-06)
+## [8.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v7.0.1...v8.0.0) (2022-09-06)
 
 
 ### ⚠ BREAKING CHANGES
@@ -414,16 +414,16 @@
 
 ### Features
 
-* **hooks:** automatically set isLoaded to false ([#199](https://github.com/invertase/react-native-google-mobile-ads/issues/199)) ([9d0ecac](https://github.com/invertase/react-native-google-mobile-ads/commit/9d0ecaccbb873cad3c3bd21589e7662760c094c6))
+* **hooks:** automatically set isLoaded to false ([#199](https://github.com/invertase/new-react-native-google-mobile-ads/issues/199)) ([9d0ecac](https://github.com/invertase/new-react-native-google-mobile-ads/commit/9d0ecaccbb873cad3c3bd21589e7662760c094c6))
 
-### [7.0.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v7.0.0...v7.0.1) (2022-06-26)
+### [7.0.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v7.0.0...v7.0.1) (2022-06-26)
 
 
 ### Bug Fixes
 
-* **android, build:** correct kotlin plugin dependency ([d3e41e9](https://github.com/invertase/react-native-google-mobile-ads/commit/d3e41e908e626f52494ca0e92c3d48efed040d2f))
+* **android, build:** correct kotlin plugin dependency ([d3e41e9](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d3e41e908e626f52494ca0e92c3d48efed040d2f))
 
-## [7.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.3.0...v7.0.0) (2022-06-24)
+## [7.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.3.0...v7.0.0) (2022-06-24)
 
 
 ### ⚠ BREAKING CHANGES
@@ -433,123 +433,123 @@
 
 ### Features
 
-* **android, sdk:** adopt native sdk v21, minSdkVersion now 19 ([1f17e15](https://github.com/invertase/react-native-google-mobile-ads/commit/1f17e15dfafd83cf48fc98ba957eb5bc82294202))
-* **android:** init/load optimization toggles, default true, override in app.json ([05cbc7a](https://github.com/invertase/react-native-google-mobile-ads/commit/05cbc7a454ee03b05e0bfdd2adc6e092d45d6d64))
-* build-time error if app.json not configured correctly ([9139bd8](https://github.com/invertase/react-native-google-mobile-ads/commit/9139bd86a55a2f82a0577c802f698df208ef30e6)), closes [#84](https://github.com/invertase/react-native-google-mobile-ads/issues/84)
-* **ios, sdk:** use google-mobile-ads-sdk 9.6.0 ([5ef755b](https://github.com/invertase/react-native-google-mobile-ads/commit/5ef755bb4f86105399cac85379b4e2b3f397dce5))
+* **android, sdk:** adopt native sdk v21, minSdkVersion now 19 ([1f17e15](https://github.com/invertase/new-react-native-google-mobile-ads/commit/1f17e15dfafd83cf48fc98ba957eb5bc82294202))
+* **android:** init/load optimization toggles, default true, override in app.json ([05cbc7a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/05cbc7a454ee03b05e0bfdd2adc6e092d45d6d64))
+* build-time error if app.json not configured correctly ([9139bd8](https://github.com/invertase/new-react-native-google-mobile-ads/commit/9139bd86a55a2f82a0577c802f698df208ef30e6)), closes [#84](https://github.com/invertase/new-react-native-google-mobile-ads/issues/84)
+* **ios, sdk:** use google-mobile-ads-sdk 9.6.0 ([5ef755b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/5ef755bb4f86105399cac85379b4e2b3f397dce5))
 
-## [6.3.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.5...v6.3.0) (2022-05-31)
-
-
-### Features
-
-* add ppid option to request options ([#153](https://github.com/invertase/react-native-google-mobile-ads/issues/153)) ([8bbfc05](https://github.com/invertase/react-native-google-mobile-ads/commit/8bbfc058b20f599acc3fd91d0145c4f974bf2d09))
-
-### [6.2.5](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.4...v6.2.5) (2022-05-14)
-
-
-### Bug Fixes
-
-* fix ad inspector callback error ([c652d5e](https://github.com/invertase/react-native-google-mobile-ads/commit/c652d5eca0d0c0e303b8450f13f9945c5c2e7964))
-* fix false error in rewarded interstitial with valid event type value ([#148](https://github.com/invertase/react-native-google-mobile-ads/issues/148)) ([7ee21bf](https://github.com/invertase/react-native-google-mobile-ads/commit/7ee21bf928c690ff54e7946c469ea6a3bbe7e6b1))
-
-### [6.2.4](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.3...v6.2.4) (2022-05-12)
-
-
-### Bug Fixes
-
-* **android:** send ad size before ad loads ([3049ea3](https://github.com/invertase/react-native-google-mobile-ads/commit/3049ea34f4f7aaedd7bd20fae7be7e1de54159cc))
-
-### [6.2.3](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.2...v6.2.3) (2022-05-12)
-
-
-### Bug Fixes
-
-* **ios:** use python3, fixes issues on macOS 12.3+ ([df4acef](https://github.com/invertase/react-native-google-mobile-ads/commit/df4acefc0e5d448f0d6e4bdad369f2d783fd5042))
-
-### [6.2.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.1...v6.2.2) (2022-05-10)
-
-
-### Bug Fixes
-
-* allow undefined configuration properties ([#138](https://github.com/invertase/react-native-google-mobile-ads/issues/138)) ([6a083fd](https://github.com/invertase/react-native-google-mobile-ads/commit/6a083fdb4687726784c1d497d3cce502c1d4f60a))
-* batch banner ad prop update ([c6aea8b](https://github.com/invertase/react-native-google-mobile-ads/commit/c6aea8bf71bfd3a1275a1ffbc9d6011e8d5c9ae6))
-
-### [6.2.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.2.0...v6.2.1) (2022-05-06)
-
-
-### Bug Fixes
-
-* **ios:** already presenting another view controller ([138df47](https://github.com/invertase/react-native-google-mobile-ads/commit/138df47b06b89cb650425dfca6ded5a7c24dc128))
-
-## [6.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.1.0...v6.2.0) (2022-05-04)
+## [6.3.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.5...v6.3.0) (2022-05-31)
 
 
 ### Features
 
-* add inline adaptive banners support ([b0f084e](https://github.com/invertase/react-native-google-mobile-ads/commit/b0f084e8a25b3faa7e671022140d4b75bb61a6ac))
+* add ppid option to request options ([#153](https://github.com/invertase/new-react-native-google-mobile-ads/issues/153)) ([8bbfc05](https://github.com/invertase/new-react-native-google-mobile-ads/commit/8bbfc058b20f599acc3fd91d0145c4f974bf2d09))
 
-## [6.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.0.1...v6.1.0) (2022-04-29)
-
-
-### Features
-
-* add rewarded interstitial ad ([10c6770](https://github.com/invertase/react-native-google-mobile-ads/commit/10c6770845f4b5cb3812d4f22587062cce8398dd))
-
-### [6.0.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v6.0.0...v6.0.1) (2022-04-28)
+### [6.2.5](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.4...v6.2.5) (2022-05-14)
 
 
 ### Bug Fixes
 
-* **types:** openAdInspector returns Promise, not function ([#123](https://github.com/invertase/react-native-google-mobile-ads/issues/123)) ([ccbf881](https://github.com/invertase/react-native-google-mobile-ads/commit/ccbf881f25aa0ddfc3a95114b407f2f19cf06e37))
+* fix ad inspector callback error ([c652d5e](https://github.com/invertase/new-react-native-google-mobile-ads/commit/c652d5eca0d0c0e303b8450f13f9945c5c2e7964))
+* fix false error in rewarded interstitial with valid event type value ([#148](https://github.com/invertase/new-react-native-google-mobile-ads/issues/148)) ([7ee21bf](https://github.com/invertase/new-react-native-google-mobile-ads/commit/7ee21bf928c690ff54e7946c469ea6a3bbe7e6b1))
 
-## [6.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v5.1.1...v6.0.0) (2022-04-27)
+### [6.2.4](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.3...v6.2.4) (2022-05-12)
+
+
+### Bug Fixes
+
+* **android:** send ad size before ad loads ([3049ea3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3049ea34f4f7aaedd7bd20fae7be7e1de54159cc))
+
+### [6.2.3](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.2...v6.2.3) (2022-05-12)
+
+
+### Bug Fixes
+
+* **ios:** use python3, fixes issues on macOS 12.3+ ([df4acef](https://github.com/invertase/new-react-native-google-mobile-ads/commit/df4acefc0e5d448f0d6e4bdad369f2d783fd5042))
+
+### [6.2.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.1...v6.2.2) (2022-05-10)
+
+
+### Bug Fixes
+
+* allow undefined configuration properties ([#138](https://github.com/invertase/new-react-native-google-mobile-ads/issues/138)) ([6a083fd](https://github.com/invertase/new-react-native-google-mobile-ads/commit/6a083fdb4687726784c1d497d3cce502c1d4f60a))
+* batch banner ad prop update ([c6aea8b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/c6aea8bf71bfd3a1275a1ffbc9d6011e8d5c9ae6))
+
+### [6.2.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.2.0...v6.2.1) (2022-05-06)
+
+
+### Bug Fixes
+
+* **ios:** already presenting another view controller ([138df47](https://github.com/invertase/new-react-native-google-mobile-ads/commit/138df47b06b89cb650425dfca6ded5a7c24dc128))
+
+## [6.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.1.0...v6.2.0) (2022-05-04)
+
+
+### Features
+
+* add inline adaptive banners support ([b0f084e](https://github.com/invertase/new-react-native-google-mobile-ads/commit/b0f084e8a25b3faa7e671022140d4b75bb61a6ac))
+
+## [6.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.0.1...v6.1.0) (2022-04-29)
+
+
+### Features
+
+* add rewarded interstitial ad ([10c6770](https://github.com/invertase/new-react-native-google-mobile-ads/commit/10c6770845f4b5cb3812d4f22587062cce8398dd))
+
+### [6.0.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v6.0.0...v6.0.1) (2022-04-28)
+
+
+### Bug Fixes
+
+* **types:** openAdInspector returns Promise, not function ([#123](https://github.com/invertase/new-react-native-google-mobile-ads/issues/123)) ([ccbf881](https://github.com/invertase/new-react-native-google-mobile-ads/commit/ccbf881f25aa0ddfc3a95114b407f2f19cf06e37))
+
+## [6.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v5.1.1...v6.0.0) (2022-04-27)
 
 
 ### ⚠ BREAKING CHANGES
 
-* Event Listeners work differently now ([#110](https://github.com/invertase/react-native-google-mobile-ads/issues/110))
+* Event Listeners work differently now ([#110](https://github.com/invertase/new-react-native-google-mobile-ads/issues/110))
 
 There is a migration doc! 
 The migration doc has code samples with the changes necessary, we hope it is easy - it is supposed to be easy
-https://github.com/invertase/react-native-google-mobile-ads/blob/main/docs/migrating-to-v6.mdx
+https://github.com/invertase/new-react-native-google-mobile-ads/blob/main/docs/migrating-to-v6.mdx
 
 ### Features
 
-* add Ad Inspector ([#116](https://github.com/invertase/react-native-google-mobile-ads/issues/116)) ([dd36436](https://github.com/invertase/react-native-google-mobile-ads/commit/dd364367aa60006c1a8f7a1ea153ff408ec1b03b))
-* add addAdEventListener method ([#110](https://github.com/invertase/react-native-google-mobile-ads/issues/110)) ([e842477](https://github.com/invertase/react-native-google-mobile-ads/commit/e8424778159cc15d907519729d75343a4f6df5b4))
-* Add Google Ad Manager support ([#105](https://github.com/invertase/react-native-google-mobile-ads/issues/105)) ([48f77da](https://github.com/invertase/react-native-google-mobile-ads/commit/48f77da3f26e12bf75247f94195755e0b52f9d2a))
-* **android, sdk:** update to google mobile ads sdk 20.6.0 ([26ef269](https://github.com/invertase/react-native-google-mobile-ads/commit/26ef2694197fa8d7c56da12d742ff899a670ac41)), closes [#114](https://github.com/invertase/react-native-google-mobile-ads/issues/114)
-* **ios, sdk:** migrate to mobile ads sdk v9 ([36a440a](https://github.com/invertase/react-native-google-mobile-ads/commit/36a440afd29bf92fd550767e77c51090fd72a63d)), closes [#113](https://github.com/invertase/react-native-google-mobile-ads/issues/113)
+* add Ad Inspector ([#116](https://github.com/invertase/new-react-native-google-mobile-ads/issues/116)) ([dd36436](https://github.com/invertase/new-react-native-google-mobile-ads/commit/dd364367aa60006c1a8f7a1ea153ff408ec1b03b))
+* add addAdEventListener method ([#110](https://github.com/invertase/new-react-native-google-mobile-ads/issues/110)) ([e842477](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e8424778159cc15d907519729d75343a4f6df5b4))
+* Add Google Ad Manager support ([#105](https://github.com/invertase/new-react-native-google-mobile-ads/issues/105)) ([48f77da](https://github.com/invertase/new-react-native-google-mobile-ads/commit/48f77da3f26e12bf75247f94195755e0b52f9d2a))
+* **android, sdk:** update to google mobile ads sdk 20.6.0 ([26ef269](https://github.com/invertase/new-react-native-google-mobile-ads/commit/26ef2694197fa8d7c56da12d742ff899a670ac41)), closes [#114](https://github.com/invertase/new-react-native-google-mobile-ads/issues/114)
+* **ios, sdk:** migrate to mobile ads sdk v9 ([36a440a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/36a440afd29bf92fd550767e77c51090fd72a63d)), closes [#113](https://github.com/invertase/new-react-native-google-mobile-ads/issues/113)
 
 
 ### Bug Fixes
 
-* fix wrong hook return type omit ([8bbc0ad](https://github.com/invertase/react-native-google-mobile-ads/commit/8bbc0ad742bb0a23b6fecdd718e701985d21086b))
+* fix wrong hook return type omit ([8bbc0ad](https://github.com/invertase/new-react-native-google-mobile-ads/commit/8bbc0ad742bb0a23b6fecdd718e701985d21086b))
 
-### [5.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v5.1.0...v5.1.1) (2022-04-19)
+### [5.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v5.1.0...v5.1.1) (2022-04-19)
 
 
 ### Bug Fixes
 
-* **ios:** avoid crash on ios < 14 without AppTrackingTransparency ([d03f45a](https://github.com/invertase/react-native-google-mobile-ads/commit/d03f45a7d57571fbd18208a55444c0b1c08bc6fb))
+* **ios:** avoid crash on ios < 14 without AppTrackingTransparency ([d03f45a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d03f45a7d57571fbd18208a55444c0b1c08bc6fb))
 
-## [5.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v5.0.1...v5.1.0) (2022-04-16)
+## [5.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v5.0.1...v5.1.0) (2022-04-16)
 
 
 ### Features
 
-* **consent:** add method that returns consent choices ([be967bd](https://github.com/invertase/react-native-google-mobile-ads/commit/be967bda774662379c012a7f06f0b2c40cfb2291))
-* hooks for all full screen ad types ([#100](https://github.com/invertase/react-native-google-mobile-ads/issues/100)) ([0bd7ce8](https://github.com/invertase/react-native-google-mobile-ads/commit/0bd7ce89f4c7b6d22a04f658de991f89af83069f))
+* **consent:** add method that returns consent choices ([be967bd](https://github.com/invertase/new-react-native-google-mobile-ads/commit/be967bda774662379c012a7f06f0b2c40cfb2291))
+* hooks for all full screen ad types ([#100](https://github.com/invertase/new-react-native-google-mobile-ads/issues/100)) ([0bd7ce8](https://github.com/invertase/new-react-native-google-mobile-ads/commit/0bd7ce89f4c7b6d22a04f658de991f89af83069f))
 
-### [5.0.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v5.0.0...v5.0.1) (2022-04-01)
+### [5.0.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v5.0.0...v5.0.1) (2022-04-01)
 
 
 ### Bug Fixes
 
-* **android:** use ApplicationContext so mediation adapter init works ([d340943](https://github.com/invertase/react-native-google-mobile-ads/commit/d340943dc8cc2d3875f46db193f706fe3705c1fd))
+* **android:** use ApplicationContext so mediation adapter init works ([d340943](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d340943dc8cc2d3875f46db193f706fe3705c1fd))
 
-## [5.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.2.0...v5.0.0) (2022-03-03)
+## [5.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.2.0...v5.0.0) (2022-03-03)
 
 
 ### ⚠ BREAKING CHANGES
@@ -558,35 +558,35 @@ https://github.com/invertase/react-native-google-mobile-ads/blob/main/docs/migra
 
 ### Features
 
-* **consent:** migrate to UMP SDK ([#82](https://github.com/invertase/react-native-google-mobile-ads/issues/82)) ([fa88240](https://github.com/invertase/react-native-google-mobile-ads/commit/fa88240d937499b4a570c40914f06054dfa31b89))
+* **consent:** migrate to UMP SDK ([#82](https://github.com/invertase/new-react-native-google-mobile-ads/issues/82)) ([fa88240](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fa88240d937499b4a570c40914f06054dfa31b89))
 
 
 ### Bug Fixes
 
-* android version and app keys ([bab67ff](https://github.com/invertase/react-native-google-mobile-ads/commit/bab67ff9d4a2f7a02e4fd20b7cf311977ca9eec1))
+* android version and app keys ([bab67ff](https://github.com/invertase/new-react-native-google-mobile-ads/commit/bab67ff9d4a2f7a02e4fd20b7cf311977ca9eec1))
 
-## [4.2.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.1.3...v4.2.0) (2022-02-14)
+## [4.2.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.1.3...v4.2.0) (2022-02-14)
 
 
 ### Features
 
-* custom targeting ([02b3ce4](https://github.com/invertase/react-native-google-mobile-ads/commit/02b3ce48138475cf38b44dc997bb69f6767433f3))
+* custom targeting ([02b3ce4](https://github.com/invertase/new-react-native-google-mobile-ads/commit/02b3ce48138475cf38b44dc997bb69f6767433f3))
 
-### [4.1.3](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.1.2...v4.1.3) (2022-02-10)
-
-
-### Bug Fixes
-
-* adRequestOptions ignored ([e15809a](https://github.com/invertase/react-native-google-mobile-ads/commit/e15809a59f538bb8f4585fb58779f59239ec1865))
-
-### [4.1.2](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.1.1...v4.1.2) (2022-02-07)
+### [4.1.3](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.1.2...v4.1.3) (2022-02-10)
 
 
 ### Bug Fixes
 
-* **CHANGELOG:** remove duplicate changelog chunk ([d5e59e3](https://github.com/invertase/react-native-google-mobile-ads/commit/d5e59e33491d30cfdf624e76a7555d5c75f60d01))
+* adRequestOptions ignored ([e15809a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e15809a59f538bb8f4585fb58779f59239ec1865))
 
-## [4.0.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v3.4.0...v4.0.0) (2022-02-07)
+### [4.1.2](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.1.1...v4.1.2) (2022-02-07)
+
+
+### Bug Fixes
+
+* **CHANGELOG:** remove duplicate changelog chunk ([d5e59e3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d5e59e33491d30cfdf624e76a7555d5c75f60d01))
+
+## [4.0.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v3.4.0...v4.0.0) (2022-02-07)
 
 
 ### ⚠ BREAKING CHANGES
@@ -595,38 +595,38 @@ https://github.com/invertase/react-native-google-mobile-ads/blob/main/docs/migra
 
 ### Features
 
-* app open ads ([6be7d02](https://github.com/invertase/react-native-google-mobile-ads/commit/6be7d02eb221f5f8c3e6c7baac381fcd6f5a8d20))
-* typescript rewrite ([#41](https://github.com/invertase/react-native-google-mobile-ads/issues/41)) ([4114e4b](https://github.com/invertase/react-native-google-mobile-ads/commit/4114e4b0d17d70feca2e8220962eb7545261727d))
+* app open ads ([6be7d02](https://github.com/invertase/new-react-native-google-mobile-ads/commit/6be7d02eb221f5f8c3e6c7baac381fcd6f5a8d20))
+* typescript rewrite ([#41](https://github.com/invertase/new-react-native-google-mobile-ads/issues/41)) ([4114e4b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/4114e4b0d17d70feca2e8220962eb7545261727d))
 
 
 ### Bug Fixes
 
-* **android:** no banner ads loaded in the first render ([3154579](https://github.com/invertase/react-native-google-mobile-ads/commit/3154579cd51a7ca98e747a1d73caf0ecd9ad4e2f))
-* Block descendant focus requests ([835bdec](https://github.com/invertase/react-native-google-mobile-ads/commit/835bdec6aff843e2ef21250137927fb004750aeb)), closes [/github.com/facebook/react-native/issues/32649#issuecomment-990968256](https://github.com/invertase//github.com/facebook/react-native/issues/32649/issues/issuecomment-990968256)
-* **CHANGELOG:** remove duplicate changelog chunk ([d5e59e3](https://github.com/invertase/react-native-google-mobile-ads/commit/d5e59e33491d30cfdf624e76a7555d5c75f60d01))
-* point to the right native module ([df30e7b](https://github.com/invertase/react-native-google-mobile-ads/commit/df30e7be02d050b3d69ca152355ec79d6f2131fa))
-* **release:** allow semantic-release on beta branch ([106ce63](https://github.com/invertase/react-native-google-mobile-ads/commit/106ce63ce8a64f37a3d7983bfe7f040186b0a62b))
-* typo in native event type ([fcb911a](https://github.com/invertase/react-native-google-mobile-ads/commit/fcb911aad7d3739465054dee538954815595b888))
+* **android:** no banner ads loaded in the first render ([3154579](https://github.com/invertase/new-react-native-google-mobile-ads/commit/3154579cd51a7ca98e747a1d73caf0ecd9ad4e2f))
+* Block descendant focus requests ([835bdec](https://github.com/invertase/new-react-native-google-mobile-ads/commit/835bdec6aff843e2ef21250137927fb004750aeb)), closes [/github.com/facebook/react-native/issues/32649#issuecomment-990968256](https://github.com/invertase//github.com/facebook/react-native/issues/32649/issues/issuecomment-990968256)
+* **CHANGELOG:** remove duplicate changelog chunk ([d5e59e3](https://github.com/invertase/new-react-native-google-mobile-ads/commit/d5e59e33491d30cfdf624e76a7555d5c75f60d01))
+* point to the right native module ([df30e7b](https://github.com/invertase/new-react-native-google-mobile-ads/commit/df30e7be02d050b3d69ca152355ec79d6f2131fa))
+* **release:** allow semantic-release on beta branch ([106ce63](https://github.com/invertase/new-react-native-google-mobile-ads/commit/106ce63ce8a64f37a3d7983bfe7f040186b0a62b))
+* typo in native event type ([fcb911a](https://github.com/invertase/new-react-native-google-mobile-ads/commit/fcb911aad7d3739465054dee538954815595b888))
 
-### [4.1.1](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.1.0...v4.1.1) (2022-01-27)
+### [4.1.1](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.1.0...v4.1.1) (2022-01-27)
 
 
 ### Bug Fixes
 
-* point to the right native module ([e1d7715](https://github.com/invertase/react-native-google-mobile-ads/commit/e1d77153fadcd3e1c69f497e1768844408618d18))
+* point to the right native module ([e1d7715](https://github.com/invertase/new-react-native-google-mobile-ads/commit/e1d77153fadcd3e1c69f497e1768844408618d18))
 
-## [4.1.0](https://github.com/invertase/react-native-google-mobile-ads/compare/v4.0.2...v4.1.0) (2022-01-26)
+## [4.1.0](https://github.com/invertase/new-react-native-google-mobile-ads/compare/v4.0.2...v4.1.0) (2022-01-26)
 
 ### ⚠ BREAKING CHANGES
 
-* Rename from `@invertase/react-native-google-ads` to `react-native-google-mobile-ads` to more accurately reflect underlying SDK names (#62)
+* Rename from `@invertase/react-native-google-ads` to `new-react-native-google-mobile-ads` to more accurately reflect underlying SDK names (#62)
   - Please change `package.json` to use the new package name
   - Please update all imports to new package name
-  - Please change `app.json` key with app ids from `react-native-google-ads` to `react-native-google-mobile-ads` (and run `pod install`)
+  - Please change `app.json` key with app ids from `react-native-google-ads` to `new-react-native-google-mobile-ads` (and run `pod install`)
 
 ### Features
 
-* app open ads ([f145716](https://github.com/invertase/react-native-google-mobile-ads/commit/f145716baa9ce05d4172eff5e9df6349937353e6))
+* app open ads ([f145716](https://github.com/invertase/new-react-native-google-mobile-ads/commit/f145716baa9ce05d4172eff5e9df6349937353e6))
 
 ### [4.0.2](https://github.com/invertase/react-native-google-ads/compare/v4.0.1...v4.0.2) (2022-01-24)
 

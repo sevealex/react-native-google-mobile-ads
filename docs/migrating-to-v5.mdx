@@ -23,7 +23,7 @@ Also, while the old Consent SDK provided information about user preferences, the
 
 ```diff
  {
-   "react-native-google-mobile-ads": {
+   "new-react-native-google-mobile-ads": {
      "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
      "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
 +    "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
@@ -32,7 +32,7 @@ Also, while the old Consent SDK provided information about user preferences, the
 ```
 
 ```diff
- import { AdsConsent, AdsConsentStatus } from 'react-native-google-mobile-ads';
+ import { AdsConsent, AdsConsentStatus } from 'new-react-native-google-mobile-ads';
 
 -const consentInfo = await AdsConsent.requestInfoUpdate(['pub-6189033257628123']);
 +const consentInfo = await AdsConsent.requestInfoUpdate();

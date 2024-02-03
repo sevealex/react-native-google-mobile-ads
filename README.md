@@ -1,14 +1,14 @@
 <p align="center">
-  <a href="https://docs.page/invertase/react-native-google-mobile-ads">
+  <a href="https://docs.page/invertase/new-react-native-google-mobile-ads">
     <img width="160px" src="./docs/img/logo_admob_192px.svg"><br/>
   </a>
   <h2 align="center">React Native Google Mobile Ads</h2>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/react-native-google-mobile-ads"><img src="https://img.shields.io/npm/dm/react-native-google-mobile-ads.svg?style=flat-square" alt="NPM downloads"></a>
-  <a href="https://www.npmjs.com/package/react-native-google-mobile-ads"><img src="https://img.shields.io/npm/v/react-native-google-mobile-ads.svg?style=flat-square" alt="NPM version"></a>
-  <a href="/LICENSE"><img src="https://img.shields.io/npm/l/react-native-google-mobile-ads.svg?style=flat-square" alt="License"></a>
+  <a href="https://www.npmjs.com/package/new-react-native-google-mobile-ads"><img src="https://img.shields.io/npm/dm/new-react-native-google-mobile-ads.svg?style=flat-square" alt="NPM downloads"></a>
+  <a href="https://www.npmjs.com/package/new-react-native-google-mobile-ads"><img src="https://img.shields.io/npm/v/new-react-native-google-mobile-ads.svg?style=flat-square" alt="NPM version"></a>
+  <a href="/LICENSE"><img src="https://img.shields.io/npm/l/new-react-native-google-mobile-ads.svg?style=flat-square" alt="License"></a>
 </p>
 
 <p align="center">
@@ -47,14 +47,14 @@ When using The New Architecture, some legacy code will still be used though. See
 
 ## Documentation
 
-- [Installation](https://docs.page/invertase/react-native-google-mobile-ads)
-- [Displaying Ads](https://docs.page/invertase/react-native-google-mobile-ads/displaying-ads)
+- [Installation](https://docs.page/invertase/new-react-native-google-mobile-ads)
+- [Displaying Ads](https://docs.page/invertase/new-react-native-google-mobile-ads/displaying-ads)
 
 ## Contributing
 
-- [Issues](https://github.com/invertase/react-native-google-mobile-ads/issues)
-- [PRs](https://github.com/invertase/react-native-google-mobile-ads/pulls)
-- [Guidelines](https://github.com/invertase/react-native-google-mobile-ads/blob/main/CONTRIBUTING.md)
+- [Issues](https://github.com/invertase/new-react-native-google-mobile-ads/issues)
+- [PRs](https://github.com/invertase/new-react-native-google-mobile-ads/pulls)
+- [Guidelines](https://github.com/invertase/new-react-native-google-mobile-ads/blob/main/CONTRIBUTING.md)
 - [Code of Conduct](https://github.com/invertase/meta/blob/main/CODE_OF_CONDUCT.md)
 
 ## License
@@ -64,10 +64,10 @@ When using The New Architecture, some legacy code will still be used though. See
 ---
 
 <p align="center">
-  <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=react-native-google-mobile-ads">
+  <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=new-react-native-google-mobile-ads">
     <img width="75px" src="https://static.invertase.io/assets/invertase/invertase-rounded-avatar.png">
   </a>
   <p align="center">
-    Built and maintained by <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=react-native-google-mobile-ads">Invertase</a>.
+    Built and maintained by <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=new-react-native-google-mobile-ads">Invertase</a>.
   </p>
 </p>

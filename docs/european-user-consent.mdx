@@ -57,7 +57,7 @@ Within your projects `app.json` file, set the `delay_app_measurement_init` to `t
 
 ```json
 {
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "delay_app_measurement_init": true
@@ -78,12 +78,12 @@ npx react-native run-android
 ### App Tracking Transparency
 
 If you configure an [ATT message](https://support.google.com/admob/answer/10115331) in your Google AdMob account, the UMP SDK will automatically handle the ATT alert.
-This will also show an IDFA explainer message. If you don't want to show an explainer message you can show the ATT alert [manually](https://docs.page/invertase/react-native-google-mobile-ads#app-tracking-transparency-ios).
+This will also show an IDFA explainer message. If you don't want to show an explainer message you can show the ATT alert [manually](https://docs.page/invertase/new-react-native-google-mobile-ads#app-tracking-transparency-ios).
 Also, within your projects `app.json` file, you have to use the `user_tracking_usage_description` to to describe your usage:
 
 ```json
 {
-  "react-native-google-mobile-ads": {
+  "new-react-native-google-mobile-ads": {
     "android_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
     "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
@@ -100,7 +100,7 @@ It is recommended you request consent information each time your application sta
 The `AdsConsent` helper provides a promise based method to return the users consent status called `requestInfoUpdate`.
 
 ```js
-import { AdsConsent } from 'react-native-google-mobile-ads';
+import { AdsConsent } from 'new-react-native-google-mobile-ads';
 
 const consentInfo = await AdsConsent.requestInfoUpdate();
 ```
@@ -135,7 +135,7 @@ If an error occurs during the consent gathering process, you should still attemp
 The UMP SDK uses the consent status from the previous session.
 
 ```js
-import mobileAds, { AdsConsent, AdsConsentStatus } from 'react-native-google-mobile-ads';
+import mobileAds, { AdsConsent, AdsConsentStatus } from 'new-react-native-google-mobile-ads';
 
 let isMobileAdsStartCalled = false;
 
@@ -188,7 +188,7 @@ Especially since the Google Mobile Ads SDK won't show any ads if the user didn't
 This library exports a method that returns some of the most relevant consent flags to handle common use cases.
 
 ```js
-import { AdsConsent } from 'react-native-google-mobile-ads';
+import { AdsConsent } from 'new-react-native-google-mobile-ads';
 
 const {
   activelyScanDeviceCharacteristicsForIdentification,
@@ -238,7 +238,7 @@ To set a debug location, use the `debugGeography` key. It accepts 3 values:
 For example:
 
 ```js
-import { AdsConsent, AdsConsentDebugGeography } from 'react-native-google-mobile-ads';
+import { AdsConsent, AdsConsentDebugGeography } from 'new-react-native-google-mobile-ads';
 
 const consentInfo = await AdsConsent.requestInfoUpdate({
   debugGeography: AdsConsentDebugGeography.EEA,
@@ -249,7 +249,7 @@ const consentInfo = await AdsConsent.requestInfoUpdate({
 It is possible to reset the UMP state for test devices. To reset the ATT state you have to delete and reinstall your app though.
 
 ```js
-import { AdsConsent } from 'react-native-google-mobile-ads';
+import { AdsConsent } from 'new-react-native-google-mobile-ads';
 
 AdsConsent.reset();
 ```

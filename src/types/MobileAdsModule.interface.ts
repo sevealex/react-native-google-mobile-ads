@@ -16,7 +16,7 @@ export interface MobileAdsModuleInterface {
    * #### Example
    *
    * ```js
-   * import mobileAds, { MaxAdContentRating } from 'react-native-google-mobile-ads';
+   * import mobileAds, { MaxAdContentRating } from 'new-react-native-google-mobile-ads';
    *
    * await mobileAds().setRequestConfiguration({
    *   // Update all future requests suitable for parental guidance

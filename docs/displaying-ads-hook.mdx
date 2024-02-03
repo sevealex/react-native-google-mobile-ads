@@ -11,7 +11,7 @@ For testing, we can use a Test ID, however for production the ID from the
 Google AdMob dashboard under "Ad units" should be used:
 
 ```tsx {4-8}
-import { useInterstitialAd, TestIds } from 'react-native-google-mobile-ads';
+import { useInterstitialAd, TestIds } from 'new-react-native-google-mobile-ads';
 
 export default function App() {
   const interstitialAd = useInterstitialAd(TestIds.Interstitial);
@@ -33,7 +33,7 @@ documentation to view the full range of options available.
 The hook returns several states and functions to control ad.
 
 ```tsx
-import { useInterstitialAd, TestIds } from 'react-native-google-mobile-ads';
+import { useInterstitialAd, TestIds } from 'new-react-native-google-mobile-ads';
 
 export default function App({ navigation }) {
   const { isLoaded, isClosed, load, show } = useInterstitialAd(TestIds.INTERSTITIAL);

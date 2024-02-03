@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "You should run this from directory where you have cloned the react-native-google-mobile-ads repo"
+echo "You should run this from directory where you have cloned the new-react-native-google-mobile-ads repo"
 echo "You should only do this when your git working set is completely clean (e.g., git reset --hard)"
 echo "You must have already run \`yarn\` in the repository so \`npx react-native\` will work"
 echo "This scaffolding refresh has been tested on macOS, if you use it on linux, it might not work"
@@ -58,7 +58,7 @@ sed -i -e $'s/rootProject.name = \'RNGoogleMobileAdsExample\'/rootProject.name =
 rm -f android/settings.gradle??
 
 # React-native builds on iOS are very noisy with warnings in other packages that drown our warnings out. Reduce warnings to just our packages.
-sed -i -e $'s/__apply_Xcode_12_5_M1_post_install_workaround(installer)/__apply_Xcode_12_5_M1_post_install_workaround(installer)\\\n\\\n    # quiet non-module warnings - only interested in google-mobile-ads warnings\\\n    installer.pods_project.targets.each do |target|\\\n      if !target.name.include? "react-native-google-mobile-ads"\\\n        target.build_configurations.each do |config|\\\n          config.build_settings["GCC_WARN_INHIBIT_ALL_WARNINGS"] = "YES"\\\n        end\\\n      end\\\n    end/' ios/Podfile
+sed -i -e $'s/__apply_Xcode_12_5_M1_post_install_workaround(installer)/__apply_Xcode_12_5_M1_post_install_workaround(installer)\\\n\\\n    # quiet non-module warnings - only interested in google-mobile-ads warnings\\\n    installer.pods_project.targets.each do |target|\\\n      if !target.name.include? "new-react-native-google-mobile-ads"\\\n        target.build_configurations.each do |config|\\\n          config.build_settings["GCC_WARN_INHIBIT_ALL_WARNINGS"] = "YES"\\\n        end\\\n      end\\\n    end/' ios/Podfile
 rm -f ios/Podfile??
 
 # We want to easily test normal android release build setup, which is with proguard on

@@ -24,7 +24,7 @@ export interface AdsConsentInterface {
    * #### Example
    *
    * ```js
-   * import { AdsConsent } from 'react-native-google-mobile-ads';
+   * import { AdsConsent } from 'new-react-native-google-mobile-ads';
    *
    * const consentInfo = await AdsConsent.requestInfoUpdate();
    * console.log('A consent form is available:', consentInfo.isConsentFormAvailable);
@@ -40,7 +40,7 @@ export interface AdsConsentInterface {
    * #### Example
    *
    * ```js
-   * import { AdsConsent, AdsConsentStatus } from 'react-native-google-mobile-ads';
+   * import { AdsConsent, AdsConsentStatus } from 'new-react-native-google-mobile-ads';
    *
    * async function requestConsent() {
    *   const consentInfo = await AdsConsent.requestInfoUpdate();

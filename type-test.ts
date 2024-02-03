@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import * as googleMobileAds from 'react-native-google-mobile-ads';
+import * as googleMobileAds from 'new-react-native-google-mobile-ads';
 
 console.log(googleMobileAds.AdsConsentDebugGeography.DISABLED);
 console.log(googleMobileAds.AdsConsentDebugGeography.EEA);

@@ -36,7 +36,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * request options. The example below will present a test advert, and only request a non-personalized ad.
  *
  * ```js
- * import { InterstitialAd, TestIds } from 'react-native-google-mobile-ads';
+ * import { InterstitialAd, TestIds } from 'new-react-native-google-mobile-ads';
  *
  * const interstitial = InterstitialAd.createForAdRequest(TestIds.INTERSTITIAL, {
  *     requestNonPersonalizedAdsOnly: true,
@@ -50,7 +50,7 @@ import { RequestOptions } from '../types/RequestOptions';
  * Event types match the `AdEventType` interface. Once the advert has loaded, we can trigger it to show:
  *
  * ```js
- * import { AdEventType } from 'react-native-google-mobile-ads';
+ * import { AdEventType } from 'new-react-native-google-mobile-ads';
  *
  * interstitialAd.addAdEventListener(AdEventType.Loaded, () => {
  *   interstitialAd.show();
@@ -70,7 +70,7 @@ export class InterstitialAd extends MobileAd {
    * #### Example
    *
    * ```js
-   * import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
+   * import { InterstitialAd, AdEventType, TestIds } from 'new-react-native-google-mobile-ads';
    *
    * const interstitialAd = await InterstitialAd.createForAdRequest(TestIds.INTERSTITIAL, {
    *   requestAgent: 'CoolAds',
